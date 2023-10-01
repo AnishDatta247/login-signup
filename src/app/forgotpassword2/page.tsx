@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import toast, { Toaster } from "react-hot-toast";
 import { ClipLoader } from "react-spinners";
 
-export default function forgotPasswordPage() {
+export default function ForgotPasswordPage() {
   const [pass, setPass] = React.useState("");
   const [confPass, setConfPass] = React.useState("");
   const [loading, setLoading] = React.useState(false);

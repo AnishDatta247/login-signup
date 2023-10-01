@@ -96,7 +96,7 @@ export default function LoginPage() {
         )}
       </button>
       <div className="text-sm">
-        <span>Don't have an account? </span>
+        <span>Do not have an account? </span>
         <Link className="ml-1 font-semibold hover:underline" href="/signup">
           Signup
         </Link>

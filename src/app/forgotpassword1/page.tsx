@@ -6,7 +6,7 @@ import React from "react";
 import toast, { Toaster } from "react-hot-toast";
 import { ClipLoader } from "react-spinners";
 
-export default function forgotPasswordPage() {
+export default function ForgotPasswordPage() {
   const [email, setEmail] = React.useState("");
   const [sent, setSent] = React.useState(false);
   const [loading, setLoading] = React.useState(false);
